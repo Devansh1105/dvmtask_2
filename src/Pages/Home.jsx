@@ -19,6 +19,10 @@ import Section13 from "../components/Section13";
 function Home(){
 
 
+
+
+
+
 return(
 <div>
 <Header />

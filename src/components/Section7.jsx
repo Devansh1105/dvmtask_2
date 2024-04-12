@@ -9,7 +9,7 @@ function Section7() {
     <div className="section7container1para">We map out your entire logistics flow, so you always know the whereabouts of your cargo. With our user-friendly tool, you have full control and can make quick adjustments when necessary.</div>
     <button className="section7button"><div className="section7buttontext">Discover our customer portal</div> <ArrowForwardIcon style={{fontSize:"small", backgroundColor:"#00358D", color:"white", height:"40px", width:"40px", borderRadius:"50%"}}/></button>
 </div>
-<div className="section7container2"></div>
+<div className="section7container2"><img src="https://a.storyblok.com/f/240783/1080x622/44f5d62fa7/screen_business.png/m/1024x1192/filters:quality(95):focal()"></img> </div>
 </div>
   );
 }

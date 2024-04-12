@@ -11,10 +11,6 @@ function Section3() {
 <div className="section3design"></div>
 
 </div>
-
-
-
-
 </div>
   );
 }

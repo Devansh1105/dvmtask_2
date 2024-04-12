@@ -5,11 +5,11 @@ import React, { useState } from "react";
 
 
 
-function Section4container() {
+function Section4container(props) {
   return (
-<div className="section4container"
->
-    <div style={{display:"flex", paddingRight:"100px", alignItems:"center"}}>
+<div className="section4container" style={props.style}>
+
+<div style={{display:"flex", paddingRight:"100px", alignItems:"center"}}>
     <img
       alt="Manuport logistics"
       loading="lazy"
@@ -93,6 +93,8 @@ function Section4container() {
     <div style={{paddingTop:"2.5%"}}>Portugal</div> 
     </div>
  
+
+  
 </div>
 
 
