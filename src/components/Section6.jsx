@@ -55,14 +55,6 @@ function Section6() {
 <div className={showImg === 12 ? "sec6cont1img sec6show" : "sec6cont1img"}><img src="https://www.manuport-logistics.com/_next/image?url=%2Fimg%2Fcommodities%2FBuilding-Materials-Business.png&w=1720&q=75" ></img></div>
 <div className={showImg === 13 ? "sec6cont1img sec6show" : "sec6cont1img"}><img src="https://www.manuport-logistics.com/_next/image?url=%2Fimg%2Fcommodities%2FGlass-Business.png&w=1720&q=75" ></img></div>
 
-
-
-
-
-
-
-
-
 </div>
 <div className="section6container2">
     <div className="section6container2heading">What we Move</div>

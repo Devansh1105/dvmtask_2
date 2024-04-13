@@ -20,9 +20,9 @@ function Section4() {
 <div className="section4">
 
 <Section4container style={{ transform: `translateX(-${-1000+scrollX/2}px)`, transition:`transform 0.5s ease-out` }}/>
-<Section4container style={{ transform: `translateX(${-1500+scrollX/2}px)`, transition:`transform 0.5s ease-out` }}/>
+<Section4container style={{ transform: `translateX(${-1600+scrollX/2}px)`, transition:`transform 0.5s ease-out` }}/>
 <Section4container style={{ transform: `translateX(-${-1000+scrollX/2}px)`, transition:`transform 0.5s ease-out` }}/>
-<Section4container style={{ transform: `translateX(${-1500+scrollX/2}px)`, transition:`transform 0.5s ease-out` }}/>
+<Section4container style={{ transform: `translateX(${-1600+scrollX/2}px)`, transition:`transform 0.5s ease-out` }}/>
 
 </div>
   );

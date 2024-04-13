@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 
@@ -47,16 +47,7 @@ function Navbar() {
     <span className="navItems">About</span>    
     <span className="navItems">ESG</span>    
     <span className="navItems">Contact</span>    
-    
-
-
-    
-
-
-
-    
-    
-    
+    <MenuIcon className="menu"/>    
   </div>
   );
 }
