@@ -10,7 +10,7 @@
       }
 
       .navItems{
-        opacity: 0;
+        transform: translateX(1000%);
       }
 
       .menu{

@@ -93,9 +93,86 @@ width:100%;
 position: absolute;
 color: black;
 font-size: large;
+}
+
+
+
+/* //////////////////////////////hamburger menu////////////////////////////////// */
+.ham{
+  top:0px;
+  display: flex;
+  flex-direction: column;
+width:100vw;
+height:100vh;
+position: fixed;
+z-index: 1500;
+background-color:#00235D;
+}
+
+.hamdiv1{  
+  width: 100%;
+  height:10%;
+  display: flex;
+  
+  justify-content: space-between;
 
 
 }
+
+.hamdiv2{
+  display: flex;
+  flex-direction:column;
+align-items: center;
+}
+
+.hamdiv2 p{
+  font-size: 16px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 550;
+  color: white;
+}
+
+.hamdiv3{
+
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: center;
+gap: 1.25rem;
+
+
+}
+
+.hamdiv3 p{
+  font-size: 12px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 550;
+  color: white;
+}
+
+.hamdiv3 span{
+  font-size: 20px;
+  color: grey; 
+  opacity:0.7 ;
+}
+
+.hamshow{
+transform: translateX(0);
+transition: transform 0.5s ease-in;
+
+
+}
+
+.hamhide{
+transform:translateX(100%);
+transition: transform 0.5s ease-in;
+
+}
+
 
 /* ////////////////////////////////////////////////////// */
 
@@ -1435,3 +1512,8 @@ height:auto;
 color: #99aed1;
 background-color: transparent;
     }
+
+
+
+    /* ////////////////////////////////////// */
+
